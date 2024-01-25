@@ -15,6 +15,8 @@ E-commerce destinado a la venta de productos de Tecnologia
 - Indicacion de precio por categoria y precio final
 - Boton de confirmacion de pedido, con redireccion a formulario para ingresar los datos del comprador y brinda un id para identificar la operacion
 - Utilizacion de Base de Datos (Firebase)
+- Utilizacion de SweetAlert para dar mas estilo a la pagina, y confirmacion de acciones!
+- Vacio de carrito automatico al finalizar la compra.
 
 ## Tecnologías Utilizadas
 
@@ -24,6 +26,7 @@ E-commerce destinado a la venta de productos de Tecnologia
 - [React Router Dom](https://www.npmjs.com/package/react-router-dom)
 - [Firebase] (https://firebase.google.com/)
 - [Vite] (https://vitejs.dev/)
+- [SweetAlert2] (https://sweetalert2.github.io/)
 
 
 

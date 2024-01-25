@@ -8,9 +8,6 @@ import ItemCount from './ItemCount';
 
 const ItemDetail = ({ productos }) => {
 
- 
-//const {id} = useParams()
-//console.log(id)
 
   return (
     

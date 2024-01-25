@@ -33,20 +33,14 @@ const Navbar = () => {
             <MenuItem>Perifericos</MenuItem>
           </Link>
         </MenuList>
-      </Menu> 
-
+                 </Menu> 
                      <Spacer />
-
-
                    <Box p='4' >
                     <Link to={'/cart'}>
                       <CartWidget />
                     </Link>
                    </Box>
               </Flex>
-
-
-
     </div>
   </Box> 
   )

@@ -4,11 +4,15 @@ import { Box, Button, Heading, Text } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
 const Cart = () => {
-  const { cart, precioTotalCart, vaciarCart, eliminarProducto, agregaralCart } = useContext(CartContext);
+  const { cart, precioTotalCart, vaciarCart, eliminarProducto } = useContext(CartContext);
 
   function formatNumber(precioTotalCart) {
     return new Intl.NumberFormat().format(precioTotalCart);
   }
+
+  const handleConfirmarCompra = () => {
+    vaciarCart();
+  };
 
   return (
     <Box bg="teal.500" color="white" p={4} borderRadius="md">
@@ -40,7 +44,7 @@ const Cart = () => {
       </Button>
 
       <Link to="/carrito/pedido">
-        <Button mt={4} colorScheme="green" ml={4}>
+        <Button mt={4} colorScheme="green" ml={4} onClick={handleConfirmarCompra}>
           Confirmar compra
         </Button>
       </Link>
